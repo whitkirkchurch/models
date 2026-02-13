@@ -5,3 +5,4 @@ These models are designed to fit in standard 19" equipment racks, usually to hol
 ## Models
 
 - [TP-Link ER605](ER605.stl)
+- [TP-Link OC200](OC200.stl)
