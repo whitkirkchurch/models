@@ -5,3 +5,4 @@ Occasionally we create 3D-printable models to make our lives easier. We make the
 ## Categories
 
 - [19" rack-mountable](rackable/README.md): Models to help us put equipment into 19" racks.
+- [Radio mic holder](radio-mic-holder/README.md): A stand for our two radio mic belt packs.
