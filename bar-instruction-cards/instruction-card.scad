@@ -5,10 +5,10 @@
 // Either include this file from a card-specific file, or define them before including
 
 // Layer and thickness parameters
-layer_height = 0.2;                           // Height of one print layer in mm
-text_layers = 1;                              // Number of layers for text depth
+layer_height = 0.06;                           // Height of one print layer in mm
+text_layers = 2;                              // Number of layers for text depth
 text_depth = text_layers * layer_height;      // Calculated text depth
-card_layers = 6;                              // Number of layers for total card thickness
+card_layers = 20;                              // Number of layers for total card thickness
 card_thickness = card_layers * layer_height;  // Total thickness/depth of card in mm
 
 // Card dimensions (A6 = 105mm × 148mm)
