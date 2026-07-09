@@ -27,7 +27,7 @@ hole_offset_y = 8;       // Distance from top edge to hole center in mm
 text_font = "Liberation Sans:style=Bold";     // Font for text
 heading_size = hole_diameter;                // Heading text size in mm
 body_text_size = 4;                          // Body text size in mm
-body_line_spacing = 10;                      // Spacing between body text lines in mm
+body_line_spacing = 8.5;                      // Spacing between body text lines in mm
 text_margin = 8;                             // Horizontal and vertical text margin from edges in mm
 body_start_y = 2 * hole_offset_y + text_margin;  // Start position for body text from top edge in mm
 body_margin_x = text_margin;                 // Left margin for body text in mm
