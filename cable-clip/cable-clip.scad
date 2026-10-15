@@ -10,7 +10,7 @@ diameter_allowance and compression may each be a number or a per-cable list.
 At the crown, interference = compression - diameter_allowance / 2.
 Start with compression = 0 for a fit check; increase gently to grip the jackets.
 
-F6 renders the cleat. Export STL with print_on_end = true for printing with
+F6 renders the clip. Export STL with print_on_end = true for printing with
 the cable direction vertical. This avoids bridging the cable grooves; small
 horizontal screw holes may still benefit from your printer's hole settings.
 */
@@ -150,7 +150,7 @@ module cable_roof(i) {
                 }
 }
 
-module cleat() {
+module clip() {
     difference() {
         union() {
             // One continuous footprint: rounded only at the outer ear ends.
@@ -178,7 +178,7 @@ echo(cable_count = n,
      approximate_screw_penetration = screw_length - ear_thickness + sink_depth);
 
 output_orientation() {
-    cleat();
+    clip();
     if (show_cables && $preview)
         for (i = [0:n-1])
             %color("orange", 0.4)

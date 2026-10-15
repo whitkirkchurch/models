@@ -1,9 +1,9 @@
-# Cable cleat
+# Cable clip
 
-A parametric saddle which holds one or more cables against a mounting surface using two screws. Each cable can have a different diameter. The grooves open downwards so the cleat can be placed over existing cables, and the outside contour follows each cable. The mounting ears have a continuous outline and countersunk screw holes.
+A parametric saddle which holds one or more cables against a mounting surface using two screws. Each cable can have a different diameter. The grooves open downwards so the clip can be placed over existing cables, and the outside contour follows each cable. The mounting ears have a continuous outline and countersunk screw holes.
 
-- [OpenSCAD source](cable-cleat.scad)
-- [Printable STL](cable-cleat.stl)
+- [OpenSCAD source](cable-clip.scad)
+- [Printable STL](cable-clip.stl)
 
 ## Customising
 
@@ -13,7 +13,7 @@ All dimensions are in millimetres. Edit `cable_diameters` in OpenSCAD to set the
 cable_diameters = [6, 10, 8, 14];
 ```
 
-The default cleat is 79.8 mm wide, 20 mm along the cables and 17.85 mm high, with screw centres 67.4 mm apart.
+The default clip is 79.8 mm wide, 20 mm along the cables and 17.85 mm high, with screw centres 67.4 mm apart.
 
 | Parameter | Purpose |
 | --- | --- |
@@ -39,7 +39,7 @@ Render with F6 and export an STL after changing the parameters, or run from this
 
 ```sh
 openscad --hardwarnings --export-format binstl \
-  -D 'print_on_end=true' -o cable-cleat.stl cable-cleat.scad
+  -D 'print_on_end=true' -o cable-clip.stl cable-clip.scad
 ```
 
 The default, a single-cable version, and a mixed-diameter version with individual fit adjustments have been rendered and checked for closed, connected meshes. Physical fit and jacket compression still need a trial print.
